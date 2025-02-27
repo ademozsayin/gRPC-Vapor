@@ -1,0 +1,4 @@
+module GRPCCore {
+    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/GRPCCore.build/GRPCCore-Swift.h"
+    requires objc
+}

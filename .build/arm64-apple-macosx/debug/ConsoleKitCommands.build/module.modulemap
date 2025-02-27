@@ -1,0 +1,4 @@
+module ConsoleKitCommands {
+    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/ConsoleKitCommands.build/ConsoleKitCommands-Swift.h"
+    requires objc
+}

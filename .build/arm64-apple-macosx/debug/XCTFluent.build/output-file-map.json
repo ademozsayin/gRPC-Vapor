@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/master.swiftdeps"
+  },
+  "/Users/ozsayin/Desktop/VaporGRPC/.build/checkouts/fluent-kit/Sources/XCTFluent/DummyDatabase.swift": {
+    "dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/DummyDatabase.d",
+    "object": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/DummyDatabase.swift.o",
+    "swiftmodule": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/DummyDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/DummyDatabase.swiftdeps"
+  },
+  "/Users/ozsayin/Desktop/VaporGRPC/.build/checkouts/fluent-kit/Sources/XCTFluent/TestDatabase.swift": {
+    "dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/TestDatabase.d",
+    "object": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/TestDatabase.swift.o",
+    "swiftmodule": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/TestDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/XCTFluent.build/TestDatabase.swiftdeps"
+  }
+}

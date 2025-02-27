@@ -1,0 +1,4 @@
+module VaporGRPCPackageTests {
+    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/VaporGRPCPackageTests.build/VaporGRPCPackageTests-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/AppTests.build/master.swiftdeps"
+  },
+  "/Users/ozsayin/Desktop/VaporGRPC/Tests/AppTests/AppTests.swift": {
+    "dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.d",
+    "object": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.swift.o",
+    "swiftmodule": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/AppTests.build/AppTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/AppTests.build/AppTests.swiftdeps"
+  }
+}
