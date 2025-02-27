@@ -17,6 +17,14 @@ let package = Package(
         .package(url: "https://github.com/vapor/leaf.git", from: "4.3.0"),
         // 🔵 Non-blocking, event-driven networking for Swift. Used for custom executors
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.65.0"),
+        
+        // gRPC Swift Core
+        .package(url: "https://github.com/grpc/grpc-swift.git", from: "2.0.0"),
+        // gRPC NIO Transport (for HTTP/2)
+        .package(url: "https://github.com/grpc/grpc-swift-nio-transport.git", from: "1.0.0"),
+        // gRPC Protocol Buffers support
+        .package(url: "https://github.com/grpc/grpc-swift-protobuf.git", from: "1.0.0"),
+
     ],
     targets: [
         .executableTarget(
@@ -28,6 +36,10 @@ let package = Package(
                 .product(name: "Vapor", package: "vapor"),
                 .product(name: "NIOCore", package: "swift-nio"),
                 .product(name: "NIOPosix", package: "swift-nio"),
+                
+                .product(name: "GRPCCore", package: "grpc-swift"),
+                .product(name: "GRPCNIOTransportHTTP2", package: "grpc-swift-nio-transport"),
+                .product(name: "GRPCProtobuf", package: "grpc-swift-protobuf"),
             ],
             swiftSettings: swiftSettings
         ),
@@ -35,7 +47,8 @@ let package = Package(
             name: "AppTests",
             dependencies: [
                 .target(name: "App"),
-                .product(name: "VaporTesting", package: "vapor"),
+//                .product(name: "VaporTesting", package: "vapor"),
+                .product(name: "XCTVapor", package: "vapor"),
             ],
             swiftSettings: swiftSettings
         )
@@ -43,7 +56,11 @@ let package = Package(
     swiftLanguageModes: [.v5]
 )
 
+//var swiftSettings: [SwiftSetting] { [
+//    .enableUpcomingFeature("DisableOutwardActorInference"),
+//    .enableExperimentalFeature("StrictConcurrency"),
+//] }
+
 var swiftSettings: [SwiftSetting] { [
-    .enableUpcomingFeature("DisableOutwardActorInference"),
     .enableExperimentalFeature("StrictConcurrency"),
 ] }
