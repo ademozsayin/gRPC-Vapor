@@ -1,4 +1,0 @@
-module HashTreeCollections {
-    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/HashTreeCollections.build/HashTreeCollections-Swift.h"
-    requires objc
-}

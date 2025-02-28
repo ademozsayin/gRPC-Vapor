@@ -1,4 +1,0 @@
-module NIOExtras {
-    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/NIOExtras.build/NIOExtras-Swift.h"
-    requires objc
-}

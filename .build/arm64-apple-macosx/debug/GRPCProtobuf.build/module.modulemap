@@ -1,4 +1,0 @@
-module GRPCProtobuf {
-    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/GRPCProtobuf.build/GRPCProtobuf-Swift.h"
-    requires objc
-}

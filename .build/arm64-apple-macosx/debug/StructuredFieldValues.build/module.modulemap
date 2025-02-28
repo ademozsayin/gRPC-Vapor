@@ -1,4 +1,0 @@
-module StructuredFieldValues {
-    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/StructuredFieldValues.build/StructuredFieldValues-Swift.h"
-    requires objc
-}

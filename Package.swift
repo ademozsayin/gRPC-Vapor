@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "VaporGRPC",
     platforms: [
-       .macOS(.v13)
+       .macOS(.v15)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
@@ -19,11 +19,11 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.65.0"),
         
         // gRPC Swift Core
-        .package(url: "https://github.com/grpc/grpc-swift.git", from: "2.0.0"),
+        .package(url: "https://github.com/grpc/grpc-swift.git", from: "1.24.1"),
         // gRPC NIO Transport (for HTTP/2)
-        .package(url: "https://github.com/grpc/grpc-swift-nio-transport.git", from: "1.0.0"),
-        // gRPC Protocol Buffers support
-        .package(url: "https://github.com/grpc/grpc-swift-protobuf.git", from: "1.0.0"),
+//        .package(url: "https://github.com/grpc/grpc-swift-nio-transport.git", from: "1.0.0"),
+//        // gRPC Protocol Buffers support
+//        .package(url: "https://github.com/grpc/grpc-swift-protobuf.git", from: "1.0.0"),
 
     ],
     targets: [
@@ -37,11 +37,16 @@ let package = Package(
                 .product(name: "NIOCore", package: "swift-nio"),
                 .product(name: "NIOPosix", package: "swift-nio"),
                 
-                .product(name: "GRPCCore", package: "grpc-swift"),
-                .product(name: "GRPCNIOTransportHTTP2", package: "grpc-swift-nio-transport"),
-                .product(name: "GRPCProtobuf", package: "grpc-swift-protobuf"),
+                .product(name: "GRPC", package: "grpc-swift"),
+                
+//                .product(name: "GRPCCore", package: "grpc-swift"),
+//                .product(name: "GRPCNIOTransportHTTP2", package: "grpc-swift-nio-transport"),
+//                .product(name: "GRPCProtobuf", package: "grpc-swift-protobuf"),
             ],
             swiftSettings: swiftSettings
+//            plugins: [
+//                .plugin(name: "GRPCProtobufGenerator", package: "grpc-swift-protobuf")
+//            ]
         ),
         .testTarget(
             name: "AppTests",

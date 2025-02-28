@@ -1,4 +1,0 @@
-module GRPCNIOTransportHTTP2 {
-    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/GRPCNIOTransportHTTP2.build/GRPCNIOTransportHTTP2-Swift.h"
-    requires objc
-}

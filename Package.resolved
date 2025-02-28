@@ -1,5 +1,5 @@
 {
-  "originHash" : "ab966666917aa675e7ca2abd0655e64a21ac2d2f34dafa3ed86c739f4ae0d057",
+  "originHash" : "9c2fc4b3becebe16198b8c54ee213decf09ee9330f8867ba7d73cd433a5c79e1",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -60,26 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/grpc/grpc-swift.git",
       "state" : {
-        "revision" : "2ed95d8573dadb593e9ae339ee9b796268599593",
-        "version" : "2.0.0"
-      }
-    },
-    {
-      "identity" : "grpc-swift-nio-transport",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/grpc/grpc-swift-nio-transport.git",
-      "state" : {
-        "revision" : "b549df57e1a7bad5babfd41f7c70dec70e39c6a7",
-        "version" : "1.0.0"
-      }
-    },
-    {
-      "identity" : "grpc-swift-protobuf",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/grpc/grpc-swift-protobuf.git",
-      "state" : {
-        "revision" : "bdbc8320f1fd14775062b47f41c262e6d2723296",
-        "version" : "1.0.0"
+        "revision" : "8c5e99d0255c373e0330730d191a3423c57373fb",
+        "version" : "1.24.2"
       }
     },
     {

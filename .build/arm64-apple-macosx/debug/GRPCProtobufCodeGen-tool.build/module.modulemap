@@ -1,4 +1,0 @@
-module GRPCProtobufCodeGen {
-    header "/Users/ozsayin/Desktop/VaporGRPC/.build/arm64-apple-macosx/debug/GRPCProtobufCodeGen-tool.build/GRPCProtobufCodeGen-Swift.h"
-    requires objc
-}
